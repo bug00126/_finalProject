@@ -50,6 +50,3 @@ TagManager:
   - name: folder
     uniqueID: 754267801
     locked: 0
-  - name: buttons
-    uniqueID: 2817691439
-    locked: 0

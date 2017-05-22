@@ -4,16 +4,18 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class PasswordSubmit : MonoBehaviour {
-	[SerializeField] Text[] field;
-	[SerializeField] int[] passwd = {0, 0, 0};
-	GameObject canvas, passwdWindow;
-	//Image button;
+	public Text[] field;
+	public int[] passwd = {0, 0, 0};
+	public Sprite sprite;
+	[SerializeField] GameObject canvas, passwdWindow, button;
+	
+	Image image;
 
 	void Awake () {
-		canvas = GameObject.Find("Canvas_passForComputer");
-		passwdWindow = GameObject.Find("computer_pass_block");
-		//button = Image.Find("computer_button");
+		image = button.GetComponent<Image>();
 	}
+
+	public static bool isUnlock = false;
 
 	public bool submitPasswd () {
 		bool flag = true;
@@ -35,9 +37,8 @@ public class PasswordSubmit : MonoBehaviour {
 		if (submitPasswd()) {
 			canvas.SetActive(false);
 			passwdWindow.SetActive(false);
-			//utton.Image.sprite = "1173763";
-		} else {
-
+			image.sprite = sprite;
+			isUnlock = true;
 		}
 	}
 }

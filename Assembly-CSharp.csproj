@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\script\AutoSaveOnRun.cs" />
      <Compile Include="Assets\script\CheckPassword.cs" />
+     <Compile Include="Assets\script\ComputerButton.cs" />
      <Compile Include="Assets\script\DragWindow.cs" />
      <Compile Include="Assets\script\PasswordSubmit.cs" />
  <Reference Include="UnityEngine.UI">
