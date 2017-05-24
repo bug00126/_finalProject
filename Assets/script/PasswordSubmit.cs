@@ -7,7 +7,7 @@ public class PasswordSubmit : MonoBehaviour {
 	public Text[] field;
 	public int[] passwd = {0, 0, 0};
 	public Sprite sprite;
-	[SerializeField] GameObject canvas, passwdWindow, button;
+	[SerializeField] GameObject passwdWindow, button;
 	
 	Image image;
 
@@ -15,7 +15,7 @@ public class PasswordSubmit : MonoBehaviour {
 		image = button.GetComponent<Image>();
 	}
 
-	public static bool isUnlock = false;
+	public bool isUnlock = false;
 
 	public bool submitPasswd () {
 		bool flag = true;
@@ -35,7 +35,6 @@ public class PasswordSubmit : MonoBehaviour {
 
 	public void react() {
 		if (submitPasswd()) {
-			canvas.SetActive(false);
 			passwdWindow.SetActive(false);
 			image.sprite = sprite;
 			isUnlock = true;

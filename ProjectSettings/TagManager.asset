@@ -50,3 +50,9 @@ TagManager:
   - name: folder
     uniqueID: 754267801
     locked: 0
+  - name: textbox
+    uniqueID: 2879987449
+    locked: 0
+  - name: passwdBlock
+    uniqueID: 3801364879
+    locked: 0

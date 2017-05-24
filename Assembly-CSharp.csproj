@@ -47,10 +47,11 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\script\AutoSaveOnRun.cs" />
-     <Compile Include="Assets\script\CheckPassword.cs" />
-     <Compile Include="Assets\script\ComputerButton.cs" />
      <Compile Include="Assets\script\DragWindow.cs" />
+     <Compile Include="Assets\script\FolderChange.cs" />
      <Compile Include="Assets\script\PasswordSubmit.cs" />
+     <Compile Include="Assets\script\SetUnlock.cs" />
+     <Compile Include="Assets\script\SetUnlockForFolder.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
