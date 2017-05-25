@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: e6c6be17922926140967a7ba565ed1a5
-timeCreated: 1495614431
+timeCreated: 1495703502
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -90,10 +90,10 @@ TextureImporter:
       name: level_5_0
       rect:
         serializedVersion: 2
-        x: 64
-        y: 707
-        width: 146
-        height: 162
+        x: 68
+        y: 715
+        width: 138
+        height: 150
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -103,10 +103,10 @@ TextureImporter:
       name: level_5_1
       rect:
         serializedVersion: 2
-        x: 498
-        y: 716
-        width: 107
-        height: 148
+        x: 500
+        y: 718
+        width: 104
+        height: 144
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -116,10 +116,10 @@ TextureImporter:
       name: level_5_3
       rect:
         serializedVersion: 2
-        x: 830
-        y: 716
-        width: 98
-        height: 156
+        x: 835
+        y: 720
+        width: 91
+        height: 149
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,9 +143,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 264
-        y: 743
-        width: 164
-        height: 98
+        y: 746
+        width: 162
+        height: 95
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,10 +155,10 @@ TextureImporter:
       name: level_5_7
       rect:
         serializedVersion: 2
-        x: 670
-        y: 716
-        width: 94
-        height: 157
+        x: 671
+        y: 722
+        width: 93
+        height: 150
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,10 +194,10 @@ TextureImporter:
       name: level_5_14
       rect:
         serializedVersion: 2
-        x: 51
-        y: 460
-        width: 166
-        height: 184
+        x: 53
+        y: 463
+        width: 161
+        height: 178
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -207,10 +207,10 @@ TextureImporter:
       name: level_5_16
       rect:
         serializedVersion: 2
-        x: 291
-        y: 495
-        width: 141
-        height: 169
+        x: 296
+        y: 499
+        width: 133
+        height: 161
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
