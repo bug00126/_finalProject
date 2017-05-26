@@ -50,6 +50,7 @@
      <Compile Include="Assets\script\DragWindow.cs" />
      <Compile Include="Assets\script\FolderChange.cs" />
      <Compile Include="Assets\script\FolderCheck.cs" />
+     <Compile Include="Assets\script\FolderOrderReset.cs" />
      <Compile Include="Assets\script\FolderToNext.cs" />
      <Compile Include="Assets\script\PasswordSubmit.cs" />
      <Compile Include="Assets\script\SetUnlock.cs" />
