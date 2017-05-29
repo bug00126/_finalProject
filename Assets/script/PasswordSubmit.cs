@@ -5,7 +5,8 @@ using UnityEngine.UI;
 
 public class PasswordSubmit : MonoBehaviour {
 	public Text[] field;
-	public int[] passwd = {0, 0, 0};
+	public int[] passwd;
+	public int size;
 	public Sprite sprite;
 	[SerializeField] GameObject passwdWindow, button;
 	
@@ -19,7 +20,7 @@ public class PasswordSubmit : MonoBehaviour {
 
 	public bool submitPasswd () {
 		bool flag = true;
-		for (int i=0; i<3; i++) {
+		for (int i=0; i<size; i++) {
 			if (int.Parse(field[i].text) != passwd[i]) {
 				flag = false;
 			}

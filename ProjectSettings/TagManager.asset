@@ -57,3 +57,6 @@ TagManager:
   - name: passwdBlock
     uniqueID: 3801364879
     locked: 0
+  - name: GameResult
+    uniqueID: 4281791061
+    locked: 0

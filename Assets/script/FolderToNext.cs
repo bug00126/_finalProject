@@ -5,22 +5,23 @@ using UnityEngine;
 public class FolderToNext : MonoBehaviour {
 
 	public FolderCheck[] fc;
-	[SerializeField] GameObject obj1, obj2;
-	bool flag = true;
+	[SerializeField] GameObject correctFolder, wrongFolder, currentFolder;
+	GameObject nextFolder;
 	public bool checkNextFolder () {
 		for (int i=0; i<5; i++) {
-			if (!fc[i].flag) flag = false;
+			if (!fc[i].flag) return false;
 		}
-		return flag;
+		return true;
+	}
+
+	public void folderChange() {
+		currentFolder.SetActive(false);
+		nextFolder.SetActive(true);
 	}
 
 	public void react () {
-		if (checkNextFolder()) {
-			obj1.SetActive(true);
-			print("Correct");
-		} else {
-			obj2.SetActive(false);
-			print("Wrong");
-		}
+		nextFolder = (checkNextFolder())? correctFolder : wrongFolder;
+		print((checkNextFolder())? "correct" : "wrong");
+		folderChange();
 	}
 }
