@@ -7,14 +7,9 @@ public class PasswordSubmit : MonoBehaviour {
 	public Text[] field;
 	public string[] passwd;
 	public int size;
-	public Sprite sprite;
-	[SerializeField] GameObject passwdWindow, button;
-	
-	Image image;
-
-	void Awake () {
-		image = button.GetComponent<Image>();
-	}
+	public ChangeImage ci;
+	public FolderChange fc;
+	[SerializeField] GameObject passwdWindow;
 
 	public bool isUnlock = false;
 
@@ -37,8 +32,9 @@ public class PasswordSubmit : MonoBehaviour {
 	public void react() {
 		if (submitPasswd()) {
 			passwdWindow.SetActive(false);
-			image.sprite = sprite;
 			isUnlock = true;
+			ci.changeImage();
+			fc.react();
 		}
 	}
 }

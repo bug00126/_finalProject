@@ -47,6 +47,9 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\script\AutoSaveOnRun.cs" />
+     <Compile Include="Assets\script\ChangeImage.cs" />
+     <Compile Include="Assets\script\CheckPins.cs" />
+     <Compile Include="Assets\script\ClockChange.cs" />
      <Compile Include="Assets\script\DragWindow.cs" />
      <Compile Include="Assets\script\Extensions.cs" />
      <Compile Include="Assets\script\FolderChange.cs" />
@@ -55,6 +58,9 @@
      <Compile Include="Assets\script\FolderToNext.cs" />
      <Compile Include="Assets\script\GameEnding.cs" />
      <Compile Include="Assets\script\PasswordSubmit.cs" />
+     <Compile Include="Assets\script\PinDetermination.cs" />
+     <Compile Include="Assets\script\SendMail.cs" />
+     <Compile Include="Assets\script\SetClockPins.cs" />
      <Compile Include="Assets\script\SetUnlock.cs" />
      <Compile Include="Assets\script\SetUnlockForFolder.cs" />
  <Reference Include="UnityEngine.UI">
