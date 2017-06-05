@@ -14,12 +14,12 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - background
+  - dtIcon
+  - folder
+  - textbox
+  - passwdBlock
+  - gameResult
   - 
   - 
   - 

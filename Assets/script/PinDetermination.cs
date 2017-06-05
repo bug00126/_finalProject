@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PinDetermination : MonoBehaviour {
 
-	public bool[] pinCheck;
+	public bool[] pinCheck = {false, false, false};
 
 	public void triPin() {
 		for (int i=0; i<3; i++) {

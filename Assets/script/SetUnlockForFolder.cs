@@ -9,7 +9,7 @@ public class SetUnlockForFolder : SetUnlock {
 	[SerializeField] FolderToNext ftn;
 
 	public override void react() {
-        if (!submit.isUnlock) {
+        if (!submit.submitPasswd()) {
 			whileLock.SetActive(true);
 			collider.enabled = false;
 		} else {

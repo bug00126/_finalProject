@@ -5,34 +5,26 @@ using UnityEngine;
 public class CheckPins : MonoBehaviour {
 
 	[SerializeField] GameObject[] obj;
-	[SerializeField] GameObject funcClock, unfuncClock;
-	[SerializeField] Canvas canvas;
 
-	int[] ans = {180, 150, 330};
+	int[] ans = {330, 180, 150};
 
 	public bool checkPins() {
+		bool flag = true;
 		for (int i=0; i<3; i++) {
-			while (obj[i].transform.rotation.z < 0)
-				obj[i].transform.Rotate(0, 0, 360);
-			if (obj[i].transform.rotation.eulerAngles.z != ans[i]) {
-				print(obj[i].transform.eulerAngles.z);
-				return false;
+			if (obj[i].transform.eulerAngles.z != ans[i]) {
+				print(i+" "+obj[i].transform.eulerAngles.z+" "+obj[i].transform.rotation.z);
+				flag = false;
 			}
 		}
-
-		return true;
+		return flag;
 	}
 
 	[SerializeField] GameObject doorSetting, window;
 
 	public void react() {
-		CanvasGroup cg = canvas.GetComponent<CanvasGroup>();
 		if (checkPins()) {
 			doorSetting.SetActive(true);
 			window.SetActive(false);
-			funcClock.SetActive(false);
-			unfuncClock.SetActive(true);
-			cg.interactable = true;
 			print ("door unlock");
 		} else {
 			print ("pins position wrong!");

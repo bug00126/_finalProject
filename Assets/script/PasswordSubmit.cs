@@ -11,28 +11,20 @@ public class PasswordSubmit : MonoBehaviour {
 	public FolderChange fc;
 	[SerializeField] GameObject passwdWindow;
 
-	public bool isUnlock = false;
-
 	public bool submitPasswd () {
-		bool flag = true;
 		for (int i=0; i<size; i++) {
 			if (field[i].text != passwd[i]) {
-				flag = false;
+				print ("wrong password!!!");
+				return false;
 			}
 		}
-
-		if (flag)
-			print ("unlock");
-		else
-			print ("wrong password!!!");
-
-		return flag;
+		print ("unlock");
+		return true;
 	}
 
 	public void react() {
 		if (submitPasswd()) {
 			passwdWindow.SetActive(false);
-			isUnlock = true;
 			ci.changeImage();
 			fc.react();
 		}
