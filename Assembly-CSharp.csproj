@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{170D3DCE-1212-41A7-CE7E-0BF31B473D6D}</ProjectGuid>
+    <ProjectGuid>{466D2513-60A1-C2DE-3424-8C5405AC94EF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -59,10 +59,15 @@
      <Compile Include="Assets\script\GameEnding.cs" />
      <Compile Include="Assets\script\PasswordSubmit.cs" />
      <Compile Include="Assets\script\PinDetermination.cs" />
+     <Compile Include="Assets\script\SceneChange.cs" />
+     <Compile Include="Assets\script\SceneManager.cs" />
+     <Compile Include="Assets\script\SceneMenuAttribute.cs" />
+     <Compile Include="Assets\script\SceneMenuDrawer.cs" />
      <Compile Include="Assets\script\SendMail.cs" />
      <Compile Include="Assets\script\SetClockPins.cs" />
      <Compile Include="Assets\script\SetUnlock.cs" />
      <Compile Include="Assets\script\SetUnlockForFolder.cs" />
+     <None Include="Assets\DOTween\readme.txt" />
      <None Include="Assets\Textures and Sprites\SF UI\Background\LICENSE.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
@@ -84,6 +89,9 @@
  </Reference>
  <Reference Include="UnityEngine.VR">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween">
+ <HintPath>D:/BACKUP/2017大二下/軟體設計與實驗/_finalProject/Assets/DOTween/DOTween.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
