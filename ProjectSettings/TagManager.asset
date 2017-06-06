@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - real
   layers:
   - Default
   - TransparentFX
@@ -13,12 +14,12 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - background
+  - dtIcon
+  - folder
+  - textbox
+  - passwdBlock
+  - gameResult
   - 
   - 
   - 
@@ -55,4 +56,7 @@ TagManager:
     locked: 0
   - name: passwdBlock
     uniqueID: 3801364879
+    locked: 0
+  - name: GameResult
+    uniqueID: 4281791061
     locked: 0

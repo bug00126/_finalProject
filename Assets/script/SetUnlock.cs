@@ -8,7 +8,7 @@ public class SetUnlock : MonoBehaviour {
 	public PasswordSubmit submit;
 
 	virtual public void react() {
-		if (!submit.isUnlock) {
+		if (!submit.submitPasswd()) {
 			whileLock.SetActive(true);
 		} else {
 			whileUnlock.SetActive(true);

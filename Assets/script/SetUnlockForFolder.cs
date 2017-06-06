@@ -4,14 +4,17 @@ using UnityEngine;
 
 public class SetUnlockForFolder : SetUnlock {
 
-	[SerializeField] GameObject currentFolder, nextFolder;
+	[SerializeField] GameObject currentFolder, nextFolder, realFolder;
 	[SerializeField] BoxCollider2D collider;
+	[SerializeField] FolderToNext ftn;
 
 	public override void react() {
-        if (!submit.isUnlock) {
+        if (!submit.submitPasswd()) {
 			whileLock.SetActive(true);
 			collider.enabled = false;
 		} else {
+			if (ftn.checkNextFolder())
+				nextFolder = realFolder;
 			changeFolder();
 		}
 	}
