@@ -2,35 +2,37 @@ Initialize engine version: 5.6.0f3 (497a0f351392)
 GfxDevice: creating device client; threaded=1
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA GeForce GTX 860M     (ID=0x1392)
+    Renderer: NVIDIA GeForce 820M        (ID=0x1140)
     Vendor:   NVIDIA
-    VRAM:     1995 MB
-    Driver:   10.18.13.5946
+    VRAM:     1994 MB
+    Driver:   9.18.13.3235
 Begin MonoManager ReloadAssembly
-Platform assembly: D:\BACKUP\2017大二下\軟體設計與實驗\_finalProject\test_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading D:\BACKUP\2017大二下\軟體設計與實驗\_finalProject\test_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: D:\BACKUP\2017大二下\軟體設計與實驗\_finalProject\test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading D:\BACKUP\2017大二下\軟體設計與實驗\_finalProject\test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: D:\BACKUP\2017大二下\軟體設計與實驗\_finalProject\test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading D:\BACKUP\2017大二下\軟體設計與實驗\_finalProject\test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: D:\BACKUP\2017大二下\軟體設計與實驗\_finalProject\test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading D:\BACKUP\2017大二下\軟體設計與實驗\_finalProject\test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: D:\BACKUP\2017大二下\軟體設計與實驗\_finalProject\test_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
-Loading D:\BACKUP\2017大二下\軟體設計與實驗\_finalProject\test_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-Platform assembly: D:\BACKUP\2017大二下\軟體設計與實驗\_finalProject\test_Data\Managed\DOTween.dll (this message is harmless)
-Loading D:\BACKUP\2017大二下\軟體設計與實驗\_finalProject\test_Data\Managed\DOTween.dll into Unity Child Domain
-- Completed reload, in  0.200 seconds
-Platform assembly: D:\BACKUP\2017大二下\軟體設計與實驗\_finalProject\test_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: D:\BACKUP\2017大二下\軟體設計與實驗\_finalProject\test_Data\Managed\System.dll (this message is harmless)
-desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+Platform assembly: D:\my_thing\college\software_design\_finalProject\_Final_Project\test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\my_thing\college\software_design\_finalProject\_Final_Project\test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\my_thing\college\software_design\_finalProject\_Final_Project\test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\my_thing\college\software_design\_finalProject\_Final_Project\test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\my_thing\college\software_design\_finalProject\_Final_Project\test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\my_thing\college\software_design\_finalProject\_Final_Project\test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\my_thing\college\software_design\_finalProject\_Final_Project\test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\my_thing\college\software_design\_finalProject\_Final_Project\test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\my_thing\college\software_design\_finalProject\_Final_Project\test_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading D:\my_thing\college\software_design\_finalProject\_Final_Project\test_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: D:\my_thing\college\software_design\_finalProject\_Final_Project\test_Data\Managed\DOTween.dll (this message is harmless)
+Loading D:\my_thing\college\software_design\_finalProject\_Final_Project\test_Data\Managed\DOTween.dll into Unity Child Domain
+Platform assembly: D:\my_thing\college\software_design\_finalProject\_Final_Project\test_Data\Managed\DOTween43.dll (this message is harmless)
+Loading D:\my_thing\college\software_design\_finalProject\_Final_Project\test_Data\Managed\DOTween43.dll into Unity Child Domain
+Platform assembly: D:\my_thing\college\software_design\_finalProject\_Final_Project\test_Data\Managed\DOTween46.dll (this message is harmless)
+Loading D:\my_thing\college\software_design\_finalProject\_Final_Project\test_Data\Managed\DOTween46.dll into Unity Child Domain
+Platform assembly: D:\my_thing\college\software_design\_finalProject\_Final_Project\test_Data\Managed\DOTween50.dll (this message is harmless)
+Loading D:\my_thing\college\software_design\_finalProject\_Final_Project\test_Data\Managed\DOTween50.dll into Unity Child Domain
+- Completed reload, in  0.262 seconds
+Platform assembly: D:\my_thing\college\software_design\_finalProject\_Final_Project\test_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\my_thing\college\software_design\_finalProject\_Final_Project\test_Data\Managed\System.dll (this message is harmless)
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.124970 ms
-wrong password!!!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
+UnloadTime: 1.596429 ms
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 1ee8 -> priority: 1 
-  Thread -> id: 1eec -> priority: 1 
+  Thread -> id: 2b98 -> priority: 1 
+  Thread -> id: 1f20 -> priority: 1 

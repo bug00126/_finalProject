@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 3b86087ebf7f3cd40961b83232a7c9b2
-timeCreated: 1495303333
+timeCreated: 1496860191
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -75,19 +75,6 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pin_0
-      rect:
-        serializedVersion: 2
-        x: 81
-        y: 161
-        width: 10
-        height: 9
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
       name: pin_1
       rect:
         serializedVersion: 2
@@ -135,7 +122,7 @@ TextureImporter:
         width: 38
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0

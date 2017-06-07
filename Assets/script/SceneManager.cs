@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+//using UnityEngine.SceneManagement;
 
 public class SceneManager : MonoBehaviour {
 
@@ -6,7 +7,7 @@ public class SceneManager : MonoBehaviour {
 	public string nextScene;
 
 	public void LoadScene(){
-		
-		Application.LoadLevel(this.nextScene);
+		UnityEngine.SceneManagement.SceneManager.LoadScene(this.nextScene);
+		//Application.LoadLevel(this.nextScene);
 	}
 }

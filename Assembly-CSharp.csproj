@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{466D2513-60A1-C2DE-3424-8C5405AC94EF}</ProjectGuid>
+    <ProjectGuid>{170D3DCE-1212-41A7-CE7E-0BF31B473D6D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -46,29 +46,37 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\CameraSetting.cs" />
      <Compile Include="Assets\script\AutoSaveOnRun.cs" />
      <Compile Include="Assets\script\ChangeImage.cs" />
      <Compile Include="Assets\script\CheckPins.cs" />
      <Compile Include="Assets\script\ClockChange.cs" />
      <Compile Include="Assets\script\DragWindow.cs" />
      <Compile Include="Assets\script\Extensions.cs" />
+     <Compile Include="Assets\script\Fade.cs" />
+     <Compile Include="Assets\script\FadeButton.cs" />
+     <Compile Include="Assets\script\FadeInAndOut.cs" />
      <Compile Include="Assets\script\FolderChange.cs" />
      <Compile Include="Assets\script\FolderCheck.cs" />
      <Compile Include="Assets\script\FolderOrderReset.cs" />
      <Compile Include="Assets\script\FolderToNext.cs" />
      <Compile Include="Assets\script\GameEnding.cs" />
+     <Compile Include="Assets\script\MenuStart.cs" />
      <Compile Include="Assets\script\PasswordSubmit.cs" />
      <Compile Include="Assets\script\PinDetermination.cs" />
      <Compile Include="Assets\script\SceneChange.cs" />
      <Compile Include="Assets\script\SceneManager.cs" />
      <Compile Include="Assets\script\SceneMenuAttribute.cs" />
-     <Compile Include="Assets\script\SceneMenuDrawer.cs" />
      <Compile Include="Assets\script\SendMail.cs" />
      <Compile Include="Assets\script\SetClockPins.cs" />
      <Compile Include="Assets\script\SetUnlock.cs" />
      <Compile Include="Assets\script\SetUnlockForFolder.cs" />
+     <Compile Include="Assets\script\StartGame.cs" />
+     <None Include="Assets\DOTween\DOTween43.xml" />
      <None Include="Assets\DOTween\readme.txt" />
+     <None Include="Assets\DOTween\DOTween50.xml" />
      <None Include="Assets\Textures and Sprites\SF UI\Background\LICENSE.txt" />
+     <None Include="Assets\DOTween\DOTween46.xml" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -91,7 +99,16 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
  <Reference Include="DOTween">
- <HintPath>D:/BACKUP/2017大二下/軟體設計與實驗/_finalProject/Assets/DOTween/DOTween.dll</HintPath>
+ <HintPath>D:/my_thing/college/software_design/_finalProject/_Final_Project/Assets/DOTween/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween43">
+ <HintPath>D:/my_thing/college/software_design/_finalProject/_Final_Project/Assets/DOTween/DOTween43.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween46">
+ <HintPath>D:/my_thing/college/software_design/_finalProject/_Final_Project/Assets/DOTween/DOTween46.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween50">
+ <HintPath>D:/my_thing/college/software_design/_finalProject/_Final_Project/Assets/DOTween/DOTween50.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

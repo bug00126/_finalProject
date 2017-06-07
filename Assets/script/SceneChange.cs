@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class SceneChange : MonoBehaviour {
 
+	[SerializeField] SceneManager sm;
+	[SerializeField] float second;
 	public void sceneChange() {
-		Application.LoadLevel("finalProject");
-		Application.UnloadLevel("Untitled");
+		this.myInvoke(second, ()=>{
+			sm.LoadScene();
+		});
 	}
 }
