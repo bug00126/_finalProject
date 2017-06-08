@@ -10,17 +10,19 @@ public class StartGame : MonoBehaviour {
 	[SerializeField] Text[] text;
 	[SerializeField] CanvasGroup canvas;
 
-	void awake() {
+	void Awake() {
 		print ("awake");
-		image[0].DOFade(1, 1);
 		this.myInvoke(1, ()=> {
-			image[1].DOFade(1, 1);
+			image[0].DOFade(1, 1);
 		});
 		this.myInvoke(2, ()=> {
-			for (int i=0; i<2; i++) {
-				image[i+2].DOFade(1, 1);
-				text[i].DOFade(1, 1);
-			}
+			image[1].DOFade(1, 1);
+		});
+		this.myInvoke(3, ()=> {
+			image[2].DOFade(1, 1);
+			text[0].DOFade(1, 1);
+			image[3].DOFade(1, 1);
+			text[1].DOFade(1, 1);
 			canvas.interactable = true;
 		});
 	}
