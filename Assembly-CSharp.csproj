@@ -46,8 +46,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\CameraSetting.cs" />
      <Compile Include="Assets\script\AutoSaveOnRun.cs" />
+     <Compile Include="Assets\script\ButtonsControl.cs" />
+     <Compile Include="Assets\script\CameraSetting.cs" />
      <Compile Include="Assets\script\ChangeImage.cs" />
      <Compile Include="Assets\script\CheckPins.cs" />
      <Compile Include="Assets\script\ClockChange.cs" />
@@ -55,6 +56,7 @@
      <Compile Include="Assets\script\Extensions.cs" />
      <Compile Include="Assets\script\Fade.cs" />
      <Compile Include="Assets\script\FadeButton.cs" />
+     <Compile Include="Assets\script\FadeForEnding.cs" />
      <Compile Include="Assets\script\FadeInAndOut.cs" />
      <Compile Include="Assets\script\FolderChange.cs" />
      <Compile Include="Assets\script\FolderCheck.cs" />
@@ -72,6 +74,7 @@
      <Compile Include="Assets\script\SetUnlock.cs" />
      <Compile Include="Assets\script\SetUnlockForFolder.cs" />
      <Compile Include="Assets\script\StartGame.cs" />
+     <Compile Include="Assets\script\UIEventListener.cs" />
      <None Include="Assets\DOTween\DOTween43.xml" />
      <None Include="Assets\DOTween\readme.txt" />
      <None Include="Assets\DOTween\DOTween50.xml" />

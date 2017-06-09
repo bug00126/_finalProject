@@ -784,7 +784,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Present by K.L. M.J. P.H.
+  m_Text: Presented by K.L. M.J. P.H.
 --- !u!222 &726105611
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -996,7 +996,7 @@ GameObject:
   - component: {fileID: 1086809466}
   - component: {fileID: 1086809470}
   m_Layer: 13
-  m_Name: Canvas_begining&ending
+  m_Name: Canvas_begining
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
