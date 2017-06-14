@@ -21,10 +21,10 @@ MonoBehaviour:
     y: 30
     width: 1366
     height: 675
-  m_MinSize: {x: 711, y: 495}
-  m_MaxSize: {x: 18006, y: 14045}
+  m_MinSize: {x: 707, y: 471}
+  m_MaxSize: {x: 18002, y: 14021}
   vertical: 0
-  controlID: 6106
+  controlID: 7265
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -124,7 +124,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 421}
   m_MaxSize: {x: 4002, y: 8021}
   vertical: 1
-  controlID: 6084
+  controlID: 7266
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -296,10 +296,10 @@ MonoBehaviour:
     y: 0
     width: 338
     height: 675
-  m_MinSize: {x: 234, y: 495}
-  m_MaxSize: {x: 10004, y: 14045}
+  m_MinSize: {x: 230, y: 471}
+  m_MaxSize: {x: 10000, y: 14021}
   vertical: 1
-  controlID: 6107
+  controlID: 7211
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -318,8 +318,8 @@ MonoBehaviour:
     y: 0
     width: 338
     height: 404
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 204, y: 221}
+  m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 10}
   m_Panes:
   - {fileID: 10}
@@ -352,10 +352,10 @@ MonoBehaviour:
     width: 334
     height: 383
   m_TreeViewState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: e0fbffff
-    m_LastClickedID: -1056
-    m_ExpandedIDs: dc29ffffe0fbffffe4fbffff000000001a280000a02a0000d22a0000da2a00006c51000078510000c0520000d4520000f25900002e7e0000407e0000
+    scrollPos: {x: 0, y: 146}
+    m_SelectedIDs: bcba0000
+    m_LastClickedID: 47804
+    m_ExpandedIDs: bef3ffffc0f3ffffc2f3ffff000000002235000010360000783600001cb30000a6b70000fcb80000bcba0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -375,7 +375,6 @@ MonoBehaviour:
     m_SearchString: 
   m_ExpandedScenes:
   - title
-  - "\u200CfinalProject"
   - theEnding
   m_CurrenRootInstanceID: 0
   m_Locked: 0
@@ -448,13 +447,13 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/script
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\my_thing\college\software_design\_finalProject\_Final_Project
+  m_LastProjectPath: C:\Users\k\Desktop\Unity\_finalProject
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 155}
-    m_SelectedIDs: 78250000
-    m_LastClickedID: 9592
-    m_ExpandedIDs: 000000001c250000822600006628000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 2c280000
+    m_LastClickedID: 10284
+    m_ExpandedIDs: 00000000d227000032290000942b000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -482,7 +481,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000001c250000822600006628000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000d227000032290000942b000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -507,9 +506,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: e0fbffff
-    m_LastClickedInstanceID: -1056
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: bcba0000
+    m_LastClickedInstanceID: 47804
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 0e26000078250000822e00007c2500007a2500007e26000082250000fc25000000000000c2270000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -534,7 +533,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 1296}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_DirectoriesAreaWidth: 142
 --- !u!114 &13
@@ -588,7 +587,7 @@ MonoBehaviour:
     y: 92
     width: 396
     height: 654
-  m_ScrollPosition: {x: 0, y: 0}
+  m_ScrollPosition: {x: 0, y: 47.95508}
   m_InspectorMode: 0
   m_PreviewResizer:
     m_CachedPref: -160

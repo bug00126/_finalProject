@@ -117,7 +117,8 @@ public class ButtonsControl : MonoBehaviour
         Debug.Log("the password you set is：" + pass);  
 
         if (isDone) {
-            for (int i=0; i<9; i++) {
+            int i;
+            for (i=0; i<9; i++) {
                 if (password[i]!=passwordCheck[i]) {
                     for (int j=0; j<9; j++) {
                         btns[j].interactable = true;
@@ -128,8 +129,9 @@ public class ButtonsControl : MonoBehaviour
                     Debug.Log("wrong password");
                     break;
                 }
-                window.SetActive(false);
+                
             }
+            if(i==9) window.SetActive(false);
         } else {
             for (int j=0; j<9; j++) {
                         btns[j].interactable = true;
