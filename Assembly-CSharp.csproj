@@ -55,6 +55,7 @@
      <Compile Include="Assets\script\ContinueYesOrNo.cs" />
      <Compile Include="Assets\script\DoorOpen.cs" />
      <Compile Include="Assets\script\DragWindow.cs" />
+     <Compile Include="Assets\script\Ending.cs" />
      <Compile Include="Assets\script\Extensions.cs" />
      <Compile Include="Assets\script\Fade.cs" />
      <Compile Include="Assets\script\FadeButton.cs" />

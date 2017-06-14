@@ -12,13 +12,13 @@ public class StartGame : MonoBehaviour {
 
 	void Awake() {
 		print ("awake");
-		this.myInvoke(1, ()=> {
+		this.myInvoke(1.52f, ()=> {
 			image[0].DOFade(1, 1);
 		});
-		this.myInvoke(2, ()=> {
+		this.myInvoke(3.02f, ()=> {
 			image[1].DOFade(1, 1);
 		});
-		this.myInvoke(3, ()=> {
+		this.myInvoke(4.52f, ()=> {
 			image[2].DOFade(1, 1);
 			text[0].DOFade(1, 1);
 			image[3].DOFade(1, 1);
