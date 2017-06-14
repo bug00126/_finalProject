@@ -65,7 +65,6 @@
      <Compile Include="Assets\script\FolderCheck.cs" />
      <Compile Include="Assets\script\FolderOrderReset.cs" />
      <Compile Include="Assets\script\FolderToNext.cs" />
-     <Compile Include="Assets\script\GameEnding.cs" />
      <Compile Include="Assets\script\MenuStart.cs" />
      <Compile Include="Assets\script\PasswordSubmit.cs" />
      <Compile Include="Assets\script\PinDetermination.cs" />
