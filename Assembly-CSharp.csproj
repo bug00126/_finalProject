@@ -52,6 +52,8 @@
      <Compile Include="Assets\script\ChangeImage.cs" />
      <Compile Include="Assets\script\CheckPins.cs" />
      <Compile Include="Assets\script\ClockChange.cs" />
+     <Compile Include="Assets\script\ContinueYesOrNo.cs" />
+     <Compile Include="Assets\script\DoorOpen.cs" />
      <Compile Include="Assets\script\DragWindow.cs" />
      <Compile Include="Assets\script\Extensions.cs" />
      <Compile Include="Assets\script\Fade.cs" />
