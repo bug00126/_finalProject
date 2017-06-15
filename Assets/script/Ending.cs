@@ -9,6 +9,7 @@ public class Ending : MonoBehaviour {
 	[SerializeField] Fade[] fade;
 	[SerializeField] GameObject[] text;
 	[SerializeField] float[] second;
+	[SerializeField] SceneChange sc;
 
 	void Awake() {
 		this.myInvoke(second[0], ()=> {
@@ -88,7 +89,9 @@ public class Ending : MonoBehaviour {
 			text[9].SetActive(true);
 		});
 		this.myInvoke(second[22], ()=>{
-			text[9].GetComponent<Text>().DOFade(0, 1);
+			text[9].GetComponent<Text>().DOFade(0, 1).OnComplete(()=>{
+				sc.sceneChange();
+			});
 		});
 	}
 }

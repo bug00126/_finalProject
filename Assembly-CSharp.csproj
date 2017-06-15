@@ -61,6 +61,7 @@
      <Compile Include="Assets\script\FadeButton.cs" />
      <Compile Include="Assets\script\FadeForEnding.cs" />
      <Compile Include="Assets\script\FadeInAndOut.cs" />
+     <Compile Include="Assets\script\Fail.cs" />
      <Compile Include="Assets\script\FolderChange.cs" />
      <Compile Include="Assets\script\FolderCheck.cs" />
      <Compile Include="Assets\script\FolderOrderReset.cs" />
@@ -68,6 +69,7 @@
      <Compile Include="Assets\script\MenuStart.cs" />
      <Compile Include="Assets\script\PasswordSubmit.cs" />
      <Compile Include="Assets\script\PinDetermination.cs" />
+     <Compile Include="Assets\script\Quit.cs" />
      <Compile Include="Assets\script\SceneChange.cs" />
      <Compile Include="Assets\script\SceneManager.cs" />
      <Compile Include="Assets\script\SceneMenuAttribute.cs" />
