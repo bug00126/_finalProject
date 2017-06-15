@@ -1,0 +1,180 @@
+Initialize engine version: 5.6.0f3 (497a0f351392)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce 820M        (ID=0x1140)
+    Vendor:   NVIDIA
+    VRAM:     1994 MB
+    Driver:   9.18.13.3235
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\my_thing\college\software_design\_finalProject\_Final_Project\test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\my_thing\college\software_design\_finalProject\_Final_Project\test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\my_thing\college\software_design\_finalProject\_Final_Project\test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\my_thing\college\software_design\_finalProject\_Final_Project\test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\my_thing\college\software_design\_finalProject\_Final_Project\test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\my_thing\college\software_design\_finalProject\_Final_Project\test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\my_thing\college\software_design\_finalProject\_Final_Project\test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\my_thing\college\software_design\_finalProject\_Final_Project\test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\my_thing\college\software_design\_finalProject\_Final_Project\test_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading D:\my_thing\college\software_design\_finalProject\_Final_Project\test_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: D:\my_thing\college\software_design\_finalProject\_Final_Project\test_Data\Managed\DOTween.dll (this message is harmless)
+Loading D:\my_thing\college\software_design\_finalProject\_Final_Project\test_Data\Managed\DOTween.dll into Unity Child Domain
+Platform assembly: D:\my_thing\college\software_design\_finalProject\_Final_Project\test_Data\Managed\DOTween43.dll (this message is harmless)
+Loading D:\my_thing\college\software_design\_finalProject\_Final_Project\test_Data\Managed\DOTween43.dll into Unity Child Domain
+Platform assembly: D:\my_thing\college\software_design\_finalProject\_Final_Project\test_Data\Managed\DOTween46.dll (this message is harmless)
+Loading D:\my_thing\college\software_design\_finalProject\_Final_Project\test_Data\Managed\DOTween46.dll into Unity Child Domain
+Platform assembly: D:\my_thing\college\software_design\_finalProject\_Final_Project\test_Data\Managed\DOTween50.dll (this message is harmless)
+Loading D:\my_thing\college\software_design\_finalProject\_Final_Project\test_Data\Managed\DOTween50.dll into Unity Child Domain
+- Completed reload, in  0.611 seconds
+Platform assembly: D:\my_thing\college\software_design\_finalProject\_Final_Project\test_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\my_thing\college\software_design\_finalProject\_Final_Project\test_Data\Managed\System.dll (this message is harmless)
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 4.102482 ms
+awake
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 19.445847 ms
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2162.
+Total: 15.712001 ms (FindLiveObjects: 0.303206 ms CreateObjectMapping: 0.194154 ms MarkObjects: 6.057288 ms  DeleteObjects: 9.156067 ms)
+
+enter button  4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+enter button  7
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+enter button  8
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+enter button  5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+enter button  6
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+enter button  3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+enter button  2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+enter button  1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+enter button  5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+enter button  9
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+the password you set is：478563219
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+wrong password!!!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+unlock
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+wrong password!!!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+wrong password!!!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+unlock
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+correct
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+wrong password!!!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+unlock
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+wrong password!!!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+unlock
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+unlock
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+0 300 -0.5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1 150 0.9659258
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+2 60 0.5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+triangle
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+pentagon
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+door unlock
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+unlock
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 6.141108 ms
+
+Unloading 161 unused Assets to reduce memory usage. Loaded Objects now: 392.
+Total: 5.414524 ms (FindLiveObjects: 0.158231 ms CreateObjectMapping: 0.141553 ms MarkObjects: 1.137986 ms  DeleteObjects: 3.975042 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.394151 ms
+awake
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 394.
+Total: 4.240615 ms (FindLiveObjects: 0.086813 ms CreateObjectMapping: 0.085958 ms MarkObjects: 0.972912 ms  DeleteObjects: 3.092792 ms)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 2578 -> priority: 1 
+  Thread -> id: d8c -> priority: 1 
