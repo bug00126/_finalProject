@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SetClockPins : MonoBehaviour {
 
-	[SerializeField] GameObject[] pin, pins;
+	[SerializeField] GameObject[] pin, pins, pinss;
 	[SerializeField] PinDetermination pd;
 
 	public void setPinsClockwise() {
@@ -12,6 +12,7 @@ public class SetClockPins : MonoBehaviour {
 			if (pd.pinCheck[i]){
 				pin[i].transform.Rotate(0, 0, -30);
 				pins[i].transform.Rotate(0, 0, -30);
+				pinss[i].transform.Rotate(0, 0, -30);
 			}
 		}
 	}
@@ -21,6 +22,7 @@ public class SetClockPins : MonoBehaviour {
 			if (pd.pinCheck[i]){
 				pin[i].transform.Rotate(0, 0, 30);
 				pins[i].transform.Rotate(0, 0, 30);
+				pinss[i].transform.Rotate(0, 0, 30);
 			}
 		}
 	}

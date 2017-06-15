@@ -5,13 +5,13 @@ using UnityEngine;
 public class SetUnlockForFolder : SetUnlock {
 
 	[SerializeField] GameObject currentFolder, nextFolder, realFolder;
-	[SerializeField] BoxCollider2D collid;
+	[SerializeField] DragWindow dw;
 	[SerializeField] FolderToNext ftn;
 
 	public override void react() {
         if (!submit.submitPasswd()) {
 			whileLock.SetActive(true);
-			collid.enabled = false;
+			dw.enabled = false;
 		} else {
 			if (ftn.checkNextFolder())
 				nextFolder = realFolder;
